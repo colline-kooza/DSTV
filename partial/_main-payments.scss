@@ -1,0 +1,185 @@
+.main-payments{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    // gap: 30px;
+    grid-auto-columns: 28%;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    margin-bottom: 30px;
+    padding: 1rem;
+    p{
+        font-size: 19px;
+    }
+    .sub-payments{
+        display: flex;
+        gap: 10px;
+        button{
+            font-size: 20px;
+            padding: 5px 20px;
+            border-radius: 20px;
+            border: none;
+        }
+    }
+
+    .payments-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        font-size: 23px;
+        color: aliceblue;
+        // gap: 2rem;
+        width: 80%;
+        height: 50vh;
+        border-radius: 30px;
+
+        background: url(https://www.dstv.com/media/ce2fbpno/pkg_card_-_premium.jpg?width=250);
+        background-size: cover;
+        button{
+            font-size: 15px;
+            padding: 5px 20px;
+            border-radius: 20px;
+        }
+    }
+    .payments-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+        font-size: 23px;
+        color: aliceblue;
+        gap: 2rem;
+        width: 80%;
+        height: 50vh;
+        border-radius: 30px;
+
+        background: url(https://www.dstv.com/media/2g2fa3n1/pkg_card_-_compactplus.jpg?width=250);
+        background-size: cover;
+        button{
+            background-color: green;
+            font-size: 15px;
+            padding: 15px 20px;
+            border-radius: 20px;
+        }
+    }
+    .payments-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+        font-size: 23px;
+        color: aliceblue;
+        gap: 2rem;
+        width: 80%;
+        border-radius: 30px;
+
+        height: 50vh;
+        background: url(https://www.dstv.com/media/ylola1ro/pkg_card_-_compact.jpg?width=250
+        );
+        background-size: cover;
+        button{
+            font-size: 15px;
+            padding: 5px 20px;
+            border-radius: 20px;
+        }
+    }
+    .payments-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        font-size: 23px;
+        color: aliceblue;
+        // gap: 2rem;
+        width: 80%;
+        height: 50vh;
+        border-radius: 30px;
+
+        background: url(https://www.dstv.com/media/gdgnaslb/pkg_card_-_lumba.png?width=250);
+        background-size: cover;
+        button{
+            font-size: 15px;
+            padding: 5px 20px;
+            border-radius: 20px;
+        }
+}
+        .payments-5{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 1rem;
+            font-size: 23px;
+            color: aliceblue;
+            // gap: 2rem;
+            width: 80%;
+            height: 50vh;
+            border-radius: 30px;
+    
+            background: url(https://www.dstv.com/media/kdcpchxf/pkg_card_-_family-confam.jpg?width=250);
+            background-size: cover;
+            button{
+                font-size: 15px;
+                padding: 5px 20px;
+                border-radius: 20px;
+            }
+    }
+   
+}
+@media(max-width:480px){
+    .main-payments{
+        display: grid;
+        grid-auto-flow: column;
+        overflow-x: auto;
+        // gap: 30px;
+        grid-auto-columns: 80%;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: inline mandatory;
+        .payments-1{
+            width: 90%;
+            border-radius: 10px;
+            font-size: 30px;
+            a{
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+        .payments-2{
+            width: 90%;
+            border-radius: 10px;
+            font-size: 30px;
+            a{
+                background-color: red;
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+        .payments-3{
+            width: 90%;
+            border-radius: 10px;
+            font-size: 30px;
+            a{
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+        .payments-4{
+            width: 90%;
+            border-radius: 10px;
+            font-size: 30px;
+            a{
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+        .payments-5{
+            width: 90%;
+            border-radius: 10px;
+            font-size: 30px;
+            a{
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+    }
+}

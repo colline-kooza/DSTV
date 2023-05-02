@@ -1,0 +1,135 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    
+    .head{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      color: white;
+    }
+    .service-section-1{
+    display: flex;
+    gap: 1rem;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 20%;
+        height: 20vh;
+        background-color: #161e29;
+        gap: 1rem;
+
+        font-size: 19px;
+        padding: 2rem;
+        color: #e7e8e9;
+        border-radius: 20px;
+        border: solid rgba(128, 128, 128, 0.559);
+
+        i{
+            font-size: 25px;
+
+        }
+    }
+    }
+    .service-section-2{
+ display: flex;
+ gap: 1rem;
+
+ div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 20%;
+    height: 20vh;
+    background-color: #161e29;
+    font-size: 19px;
+    padding: 2rem;
+    color: #e7e8e9;
+    border-radius: 20px;
+    border: solid rgba(128, 128, 128, 0.559);
+
+    i{
+        font-size: 25px;
+
+    }
+}
+    }
+}
+@media(max-width:480px){
+    .service{
+        display: flex;
+        flex-direction: column;
+        
+        .head{
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          color: white;
+        }
+        .service-section-1{
+            display: grid;
+            flex-direction: column;
+            grid-auto-flow: column;
+            overflow-x: auto;
+            grid-auto-columns: 48%;
+            overscroll-behavior-inline: contain;
+            font-size: 20px;
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 10vh;
+            background-color: #161e29;
+            gap: 10px;
+    
+            font-size: 14px;
+            padding: 30px 10px;
+            color: #e7e8e9;
+            border-radius: 20px;
+            border: solid rgba(128, 128, 128, 0.559);
+    
+            i{
+                font-size: 25px;
+    
+            }
+        }
+        }
+        .service-section-2{
+     
+            display: grid;
+            flex-direction: column;
+            grid-auto-flow: column;
+            overflow-x: auto;
+            grid-auto-columns: 48%;
+            overscroll-behavior-inline: contain;
+            font-size: 20px;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            height: 10vh;
+            background-color: #161e29;
+            gap: 10px;
+            font-size: 10px;
+            padding: 2rem;
+            color: #e7e8e9;
+            border-radius: 20px;
+            border: solid rgba(128, 128, 128, 0.559);
+    
+            i{
+                font-size: 25px;
+    
+            }
+        }
+        }
+    }  
+}

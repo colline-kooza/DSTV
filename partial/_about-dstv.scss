@@ -1,0 +1,82 @@
+.about-dstv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 3rem 10px;
+    .dstv-buttons{
+        display: flex;
+        gap: 1rem;
+        .button-1{
+        font-size: 19px;
+       padding: 7px 50px;
+       border-radius: 25px;
+       border: none;
+        }
+        .button-2{
+            font-size: 19px;
+            padding: 7px 50px;
+            border-radius: 25px;
+            border: white solid;
+            color: aliceblue;
+            background-color: #0a121d;
+        }
+    }
+    .dstv-photos{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    p{
+        color: white;
+        font-size: 10px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    }
+}
+@media(max-width:480px){
+    .about-dstv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        
+        .dstv-buttons{
+            display: flex;
+            gap: 1rem;
+            .button-1{
+            font-size: 17px;
+           padding: 7px 40px;
+           border-radius: 20px;
+           border: none;
+            }
+            .button-2{
+                font-size: 17px;
+                padding: 7px 40px;
+                border-radius: 20px;
+                border: white solid;
+                color: aliceblue;
+                background-color: #0a121d;
+            }
+        }
+        .dstv-photos{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        p{
+            color: white;
+            font-size: 10px;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+        }
+        }
+    }    
+}

@@ -1,0 +1,1466 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.main header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-color: rgba(6, 5, 9, 0.8862745098);
+  width: 100%;
+  padding: 1rem 1rem;
+}
+.main header .icon-div {
+  display: none;
+}
+.main header .header-1 img {
+  width: 80px;
+  height: 80px;
+}
+.main header .header-2 {
+  display: flex;
+  gap: 2rem;
+  font-size: 22px;
+  margin-left: 4rem;
+}
+.main header .header-2 a {
+  text-decoration: none;
+  color: blanchedalmond;
+}
+.main header .header-2 i {
+  font-size: 25px;
+  color: rgba(98, 99, 101, 0.9215686275);
+}
+.main header .header-3 {
+  display: flex;
+  gap: 1rem;
+  color: aliceblue;
+  font-size: 22px;
+}
+.main header .header-3 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+@media (max-width: 480px) {
+  .main header {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.861);
+  }
+  .main header .icon-div {
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+  }
+  .main header .icon-div .header-1 {
+    display: flex;
+  }
+  .main header .icon-div .header-1 h3 {
+    font-size: 20px;
+  }
+  .main header .header-2 {
+    display: none;
+  }
+  .main header .header-3 {
+    display: flex;
+    gap: 8px;
+    font-size: 20px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a121d;
+  position: relative;
+  gap: 1rem;
+}
+
+.slider-master {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 20px;
+  grid-auto-columns: 100%;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  margin-top: 6rem;
+}
+.slider-master i {
+  font-size: 30px;
+}
+.slider-master .section-1 {
+  display: flex;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 255, 0.497)), url(https://www.dstv.com/media/tkdgiuru/nfs-background_1920x1080.jpg?width=576);
+  background-size: cover;
+}
+.slider-master .section-1 .section1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  gap: 2rem;
+  font-size: 30px;
+  color: aliceblue;
+  width: 50%;
+}
+.slider-master .section-1 .section1-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 29%;
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 6px;
+}
+
+@media (max-width: 480px) {
+  .slider-master {
+    margin-bottom: 5rem;
+  }
+  .slider-master .section-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 255, 0.651)), url(https://www.dstv.com/media/tkdgiuru/nfs-background_1920x1080.jpg?width=576);
+    background-size: cover;
+  }
+  .slider-master .section-1 .section1-text {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 2rem;
+    color: aliceblue;
+    width: 100%;
+    font-size: 26px;
+  }
+  .slider-master .section-1 .section1-text a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 38%;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 6px;
+  }
+  .slider-master .section1-text {
+    width: 100%;
+  }
+  .slider-master .section1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: 100%;
+  }
+  .slider-master .section1-image img {
+    width: 90%;
+  }
+}
+.section-2 {
+  display: flex;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.924), rgba(255, 255, 255, 0)), url(https://www.dstv.com/media/zfmajd2l/bg-pl-brand-element-2x.png?width=576);
+  background-size: cover;
+  color: white;
+}
+.section-2 .section2-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 24px;
+  padding: 0px 4rem;
+}
+.section-2 .section2-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 25%;
+  background-color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+}
+.section-2 .section2-text img {
+  width: 60%;
+}
+.section-2 .section2-image {
+  width: 50%;
+}
+.section-2 .section2-image img {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-2 .section2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .section-2 .section2-text a {
+    width: 35%;
+  }
+  .section-2 .section2-image {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0)), url(https://www.dstv.com/media/zfmajd2l/bg-pl-brand-element-2x.png?width=576);
+    background-size: cover;
+    width: 100%;
+  }
+}
+.main-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.main-slider h2 {
+  color: aliceblue;
+}
+.main-slider img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+.main-slider .main-slide2 {
+  display: grid;
+  flex-direction: column;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  gap: 4rem;
+  grid-auto-columns: 19%;
+  overscroll-behavior-inline: contain;
+}
+.main-slider .main-slide2 img {
+  height: 250px;
+  width: 250px;
+}
+.main-slider .main-slide2 .slide-1 {
+  height: 50vh;
+}
+.main-slider .main-slide2 .slide-2 {
+  height: 50%;
+}
+.main-slider .main-slide2 .slide-3 {
+  height: 50vh;
+}
+.main-slider .main-slide2 .slide-4 {
+  height: 50vh;
+}
+
+@media (max-width: 480px) {
+  .main-slider {
+    padding: 20px;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .main-slider img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: all(6s);
+  }
+  .main-slider img:hover {
+    transform: scale(0.9);
+  }
+  .main-slider .main-slide2 {
+    display: grid;
+    flex-direction: column;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 8rem;
+    grid-auto-columns: 28%;
+    overscroll-behavior-inline: contain;
+  }
+  .main-slider .main-slide2 img {
+    height: 400px;
+    width: 200px;
+    -o-object-fit: none;
+       object-fit: none;
+  }
+  .main-slider .main-slide2 .slide-1 {
+    height: 50vh;
+  }
+  .main-slider .main-slide2 .slide-2 {
+    height: 50%;
+  }
+  .main-slider .main-slide2 .slide-3 {
+    height: 50vh;
+  }
+  .main-slider .main-slide2 .slide-4 {
+    height: 50vh;
+  }
+}
+.packages {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0px 2rem;
+  margin-bottom: 25px;
+}
+.packages h2 {
+  color: aliceblue;
+}
+.packages p {
+  color: #aaadb1;
+}
+.packages a {
+  text-decoration: none;
+  font-size: 17px;
+  background-color: none;
+  color: aliceblue;
+  border: solid;
+  width: 15%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+@media (max-width: 480px) {
+  .packages {
+    padding: 0px 2rem;
+  }
+  .packages a {
+    width: 60%;
+    font-size: 14px;
+  }
+}
+.main-payments {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  grid-auto-columns: 28%;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+.main-payments p {
+  font-size: 19px;
+}
+.main-payments .sub-payments {
+  display: flex;
+  gap: 10px;
+}
+.main-payments .sub-payments button {
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+.main-payments .payments-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 23px;
+  color: aliceblue;
+  width: 80%;
+  height: 50vh;
+  border-radius: 30px;
+  background: url(https://www.dstv.com/media/ce2fbpno/pkg_card_-_premium.jpg?width=250);
+  background-size: cover;
+}
+.main-payments .payments-1 button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.main-payments .payments-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 23px;
+  color: aliceblue;
+  gap: 2rem;
+  width: 80%;
+  height: 50vh;
+  border-radius: 30px;
+  background: url(https://www.dstv.com/media/2g2fa3n1/pkg_card_-_compactplus.jpg?width=250);
+  background-size: cover;
+}
+.main-payments .payments-2 button {
+  background-color: green;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+.main-payments .payments-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 23px;
+  color: aliceblue;
+  gap: 2rem;
+  width: 80%;
+  border-radius: 30px;
+  height: 50vh;
+  background: url(https://www.dstv.com/media/ylola1ro/pkg_card_-_compact.jpg?width=250);
+  background-size: cover;
+}
+.main-payments .payments-3 button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.main-payments .payments-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 23px;
+  color: aliceblue;
+  width: 80%;
+  height: 50vh;
+  border-radius: 30px;
+  background: url(https://www.dstv.com/media/gdgnaslb/pkg_card_-_lumba.png?width=250);
+  background-size: cover;
+}
+.main-payments .payments-4 button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.main-payments .payments-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 23px;
+  color: aliceblue;
+  width: 80%;
+  height: 50vh;
+  border-radius: 30px;
+  background: url(https://www.dstv.com/media/kdcpchxf/pkg_card_-_family-confam.jpg?width=250);
+  background-size: cover;
+}
+.main-payments .payments-5 button {
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .main-payments {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    grid-auto-columns: 80%;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+  }
+  .main-payments .payments-1 {
+    width: 90%;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .main-payments .payments-1 a {
+    font-size: 15px;
+    width: 90%;
+  }
+  .main-payments .payments-2 {
+    width: 90%;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .main-payments .payments-2 a {
+    background-color: red;
+    font-size: 15px;
+    width: 90%;
+  }
+  .main-payments .payments-3 {
+    width: 90%;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .main-payments .payments-3 a {
+    font-size: 15px;
+    width: 90%;
+  }
+  .main-payments .payments-4 {
+    width: 90%;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .main-payments .payments-4 a {
+    font-size: 15px;
+    width: 90%;
+  }
+  .main-payments .payments-5 {
+    width: 90%;
+    border-radius: 10px;
+    font-size: 30px;
+  }
+  .main-payments .payments-5 a {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+.Entertainment {
+  display: flex;
+  gap: 4rem;
+  padding: 3rem;
+  margin-bottom: 30px;
+}
+.Entertainment .Entertainment-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 30%;
+  font-size: 20px;
+  color: aliceblue;
+}
+.Entertainment .Entertainment-text p {
+  color: #81858a;
+}
+.Entertainment .Entertainment-text button {
+  width: 70%;
+  background: none;
+  font-size: 19px;
+  color: aliceblue;
+  border: solid white;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.Entertainment .Entertainment-images {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Entertainment .Entertainment-images .Entertainment-images-1 {
+  display: flex;
+  gap: 3rem;
+}
+.Entertainment .Entertainment-images .Entertainment-images-1 .div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3a3b42;
+}
+.Entertainment .Entertainment-images .Entertainment-images-1 .div img {
+  width: 100%;
+}
+.Entertainment .Entertainment-images .Entertainment-images-1 .div .image-2 {
+  width: 80px;
+  height: 80px;
+}
+.Entertainment .Entertainment-images .Entertainment-images-2 {
+  display: flex;
+  gap: 1rem;
+}
+.Entertainment .Entertainment-images .Entertainment-images-2 .div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%;
+  background-color: #3a3b42;
+}
+.Entertainment .Entertainment-images .Entertainment-images-2 .div img {
+  width: 100%;
+}
+.Entertainment .Entertainment-images .Entertainment-images-2 .div .image-2 {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 480px) {
+  .Entertainment {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+  .Entertainment .Entertainment-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    font-size: 18px;
+    color: aliceblue;
+  }
+  .Entertainment .Entertainment-text p {
+    color: #81858a;
+  }
+  .Entertainment .Entertainment-text button {
+    width: 70%;
+    background: none;
+    font-size: 19px;
+    color: aliceblue;
+    border: solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  .Entertainment .Entertainment-images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-1 {
+    display: flex;
+    gap: 10px;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-1 .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(58, 59, 66, 0.6980392157);
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-1 .div img {
+    width: 100%;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-1 .div .image-2 {
+    width: 30px;
+    height: 30px;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-2 {
+    display: flex;
+    gap: 1rem;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-2 .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(58, 59, 66, 0.6745098039);
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-2 .div img {
+    width: 100%;
+  }
+  .Entertainment .Entertainment-images .Entertainment-images-2 .div .image-2 {
+    width: 30px;
+    height: 30px;
+  }
+}
+.local-entertainment {
+  display: flex;
+  gap: 5rem;
+  padding: 3rem;
+  margin-top: 30px;
+}
+.local-entertainment .local-images {
+  display: flex;
+  gap: 1rem;
+  width: 60%;
+}
+.local-entertainment .local-images img {
+  border-radius: 10px;
+}
+.local-entertainment .local-texts {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 2rem;
+  width: 20%;
+  color: aliceblue;
+}
+.local-entertainment .local-texts p {
+  font-size: 18px;
+  color: #9fa3a7;
+}
+.local-entertainment .local-texts button {
+  font-size: 20px;
+  width: 60%;
+  padding: 5px 20px;
+  background-color: #0a121d;
+  color: white;
+  border: solid white;
+  border-radius: 20px;
+}
+.local-entertainment .local-texts button:hover {
+  background-color: rgba(10, 183, 236, 0.972);
+}
+
+@media (max-width: 480px) {
+  .local-entertainment {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .local-entertainment h1 {
+    color: white;
+  }
+  .local-entertainment .local-images {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  .local-entertainment .local-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .local-entertainment .local-texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 2rem;
+    width: 100%;
+    color: aliceblue;
+  }
+  .local-entertainment .local-texts p {
+    font-size: 18px;
+    color: #9fa3a7;
+  }
+  .local-entertainment .local-texts button {
+    font-size: 20px;
+    width: 50%;
+    padding: 5px 20px;
+    background-color: #0a121d;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+  }
+  .local-entertainment .local-texts button:hover {
+    background-color: rgba(10, 183, 236, 0.972);
+  }
+}
+.more-entertainment {
+  display: flex;
+  gap: 5rem;
+  padding: 3rem;
+  margin-top: 30px;
+  background: url(https://www.dstv.com/media/vavblv0i/showmax-bg-image.jpg);
+}
+.more-entertainment .local-images {
+  display: flex;
+  gap: 1rem;
+  width: 60%;
+}
+.more-entertainment .local-images img {
+  border-radius: 10px;
+}
+.more-entertainment .local-texts {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 2rem;
+  width: 20%;
+  color: aliceblue;
+}
+.more-entertainment .local-texts p {
+  font-size: 18px;
+  color: #9fa3a7;
+}
+.more-entertainment .local-texts button {
+  font-size: 20px;
+  width: 60%;
+  padding: 5px 20px;
+  background-color: #0a121d;
+  color: white;
+  border: solid white;
+  border-radius: 20px;
+}
+.more-entertainment .local-texts button:hover {
+  background-color: rgba(10, 183, 236, 0.972);
+}
+
+@media (max-width: 480px) {
+  .more-entertainment {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .more-entertainment .local-images {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  .more-entertainment .local-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .more-entertainment .local-texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 1rem;
+    width: 100%;
+    color: aliceblue;
+  }
+  .more-entertainment .local-texts p {
+    font-size: 18px;
+    color: #9fa3a7;
+  }
+  .more-entertainment .local-texts button {
+    font-size: 20px;
+    width: 50%;
+    padding: 5px 20px;
+    background-color: #0a121d;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+  }
+  .more-entertainment .local-texts button:hover {
+    background-color: rgba(10, 183, 236, 0.972);
+  }
+}
+.cinema-entertainment {
+  display: flex;
+  gap: 5rem;
+  padding: 3rem;
+  margin-top: 30px;
+}
+.cinema-entertainment .local-images {
+  display: flex;
+  gap: 1rem;
+  width: 60%;
+}
+.cinema-entertainment .local-images img {
+  border-radius: 10px;
+}
+.cinema-entertainment .local-texts {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 2rem;
+  width: 20%;
+  color: aliceblue;
+}
+.cinema-entertainment .local-texts p {
+  font-size: 18px;
+  color: #9fa3a7;
+}
+.cinema-entertainment .local-texts button {
+  font-size: 20px;
+  width: 60%;
+  padding: 5px 20px;
+  background-color: #0a121d;
+  color: white;
+  border: solid white;
+  border-radius: 20px;
+}
+.cinema-entertainment .local-texts button:hover {
+  background-color: rgba(10, 183, 236, 0.972);
+}
+
+@media (max-width: 480px) {
+  .cinema-entertainment {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+  }
+  .cinema-entertainment .local-images {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  .cinema-entertainment .local-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .cinema-entertainment .local-texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 2rem;
+    width: 100%;
+    color: aliceblue;
+  }
+  .cinema-entertainment .local-texts p {
+    font-size: 18px;
+    color: #9fa3a7;
+  }
+  .cinema-entertainment .local-texts button {
+    font-size: 20px;
+    width: 50%;
+    padding: 5px 20px;
+    background-color: #0a121d;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+  }
+  .cinema-entertainment .local-texts button:hover {
+    background-color: rgba(10, 183, 236, 0.972);
+  }
+}
+.main-super-sport {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5rem;
+  gap: 3rem;
+  background-color: aliceblue;
+}
+.main-super-sport .h1 {
+  color: black;
+  font-size: 30px;
+}
+.main-super-sport .super-sport {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  height: 60vh;
+}
+.main-super-sport .super-sport .super-sport-vedio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: url(https://www.dstv.com/media/1rwkky5h/supersport-video-0104.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  width: 50%;
+}
+.main-super-sport .super-sport .super-sport-vedio i {
+  color: gray;
+  font-size: 100px;
+}
+.main-super-sport .super-sport .super-sport-vedio i:hover {
+  color: red;
+}
+.main-super-sport .super-sport .super-sport-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  width: 50%;
+}
+.main-super-sport .super-sport .super-sport-text img {
+  width: 120px;
+  height: 120px;
+}
+.main-super-sport .super-sport .super-sport-text button {
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: none;
+  padding: 10px 20px;
+  width: 40%;
+}
+
+@media (max-width: 480px) {
+  .main-super-sport {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 20px;
+    background-color: aliceblue;
+  }
+  .main-super-sport .h1 {
+    color: black;
+    font-size: 30px;
+  }
+  .main-super-sport .super-sport {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    height: 100vh;
+  }
+  .main-super-sport .super-sport .super-sport-vedio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: url(https://www.dstv.com/media/1rwkky5h/supersport-video-0104.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 40vh;
+  }
+  .main-super-sport .super-sport .super-sport-vedio i {
+    color: gray;
+    font-size: 100px;
+  }
+  .main-super-sport .super-sport .super-sport-vedio i:hover {
+    color: red;
+  }
+  .main-super-sport .super-sport .super-sport-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    width: 100%;
+  }
+  .main-super-sport .super-sport .super-sport-text img {
+    width: 100px;
+    height: 100px;
+  }
+  .main-super-sport .super-sport .super-sport-text button {
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: none;
+    padding: 10px 10px;
+    width: 80%;
+  }
+  .main-super-sport .super-sport .super-sport-text button:hover {
+    background-color: aqua;
+  }
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+.service .head {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: white;
+}
+.service .service-section-1 {
+  display: flex;
+  gap: 1rem;
+}
+.service .service-section-1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  height: 20vh;
+  background-color: #161e29;
+  gap: 1rem;
+  font-size: 19px;
+  padding: 2rem;
+  color: #e7e8e9;
+  border-radius: 20px;
+  border: solid rgba(128, 128, 128, 0.559);
+}
+.service .service-section-1 div i {
+  font-size: 25px;
+}
+.service .service-section-2 {
+  display: flex;
+  gap: 1rem;
+}
+.service .service-section-2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 20%;
+  height: 20vh;
+  background-color: #161e29;
+  font-size: 19px;
+  padding: 2rem;
+  color: #e7e8e9;
+  border-radius: 20px;
+  border: solid rgba(128, 128, 128, 0.559);
+}
+.service .service-section-2 div i {
+  font-size: 25px;
+}
+
+@media (max-width: 480px) {
+  .service {
+    display: flex;
+    flex-direction: column;
+  }
+  .service .head {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+  }
+  .service .service-section-1 {
+    display: grid;
+    flex-direction: column;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    grid-auto-columns: 48%;
+    overscroll-behavior-inline: contain;
+    font-size: 20px;
+  }
+  .service .service-section-1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    background-color: #161e29;
+    gap: 10px;
+    font-size: 14px;
+    padding: 30px 10px;
+    color: #e7e8e9;
+    border-radius: 20px;
+    border: solid rgba(128, 128, 128, 0.559);
+  }
+  .service .service-section-1 div i {
+    font-size: 25px;
+  }
+  .service .service-section-2 {
+    display: grid;
+    flex-direction: column;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    grid-auto-columns: 48%;
+    overscroll-behavior-inline: contain;
+    font-size: 20px;
+  }
+  .service .service-section-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+    background-color: #161e29;
+    gap: 10px;
+    font-size: 10px;
+    padding: 2rem;
+    color: #e7e8e9;
+    border-radius: 20px;
+    border: solid rgba(128, 128, 128, 0.559);
+  }
+  .service .service-section-2 div i {
+    font-size: 25px;
+  }
+}
+.dstv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding: 3rem;
+  gap: 2rem;
+  background-color: #151e2a;
+}
+.dstv p {
+  color: #b5b7bb;
+}
+.dstv .dstv-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.dstv .dstv-main .dstv-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dstv .dstv-main .dstv-sub img {
+  border-radius: 10px;
+}
+.dstv .dstv-main .dstv-sub .dstv-sub1 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .dstv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 1rem;
+    gap: 2rem;
+    margin-bottom: 40px;
+    background-color: #151e2a;
+  }
+  .dstv p {
+    color: #b5b7bb;
+  }
+  .dstv .dstv-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .dstv .dstv-main .dstv-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dstv .dstv-main .dstv-sub img {
+    border-radius: 10px;
+  }
+  .dstv .dstv-main .dstv-sub .dstv-sub1 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.dstv-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  color: aliceblue;
+}
+.dstv-text .div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.dstv-text .div a {
+  color: #a8abaf;
+  text-decoration: none;
+}
+
+@media (max-width: 480px) {
+  .dstv-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: aliceblue;
+  }
+  .dstv-text .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .dstv-text .div a {
+    color: #a8abaf;
+    text-decoration: none;
+  }
+}
+.about-dstv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  padding: 3rem 10px;
+}
+.about-dstv .dstv-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.about-dstv .dstv-buttons .button-1 {
+  font-size: 19px;
+  padding: 7px 50px;
+  border-radius: 25px;
+  border: none;
+}
+.about-dstv .dstv-buttons .button-2 {
+  font-size: 19px;
+  padding: 7px 50px;
+  border-radius: 25px;
+  border: white solid;
+  color: aliceblue;
+  background-color: #0a121d;
+}
+.about-dstv .dstv-photos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.about-dstv .dstv-photos p {
+  color: white;
+  font-size: 10px;
+}
+.about-dstv .dstv-photos img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .about-dstv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .about-dstv .dstv-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  .about-dstv .dstv-buttons .button-1 {
+    font-size: 17px;
+    padding: 7px 40px;
+    border-radius: 20px;
+    border: none;
+  }
+  .about-dstv .dstv-buttons .button-2 {
+    font-size: 17px;
+    padding: 7px 40px;
+    border-radius: 20px;
+    border: white solid;
+    color: aliceblue;
+    background-color: #0a121d;
+  }
+  .about-dstv .dstv-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  .about-dstv .dstv-photos p {
+    color: white;
+    font-size: 10px;
+  }
+  .about-dstv .dstv-photos img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+}
+.muti-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.muti-choice img {
+  width: 80px;
+  height: 80px;
+}
+.muti-choice .muti-choice1 {
+  display: flex;
+  gap: 5px;
+}
+.muti-choice .muti-choice1 .line {
+  display: flex;
+  margin-top: 5px;
+  background-color: white;
+  width: 2px;
+  height: 15px;
+}
+.muti-choice .muti-choice2 {
+  display: flex;
+  gap: 1rem;
+  font-size: 23px;
+}
+
+@media (max-width: 480px) {
+  .muti-choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    display: flex;
+    gap: 2rem;
+  }
+  .muti-choice img {
+    width: 80px;
+    height: 80px;
+  }
+  .muti-choice .muti-choice1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .muti-choice .muti-choice1 .line {
+    display: flex;
+    margin-top: 5px;
+    background-color: white;
+    width: 2px;
+    height: 15px;
+  }
+  .muti-choice .muti-choice2 {
+    display: flex;
+    gap: 1rem;
+    font-size: 23px;
+  }
+}
+.open-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  display: none;
+}
+.open-menu a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .open-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.663);
+  }
+  .open-menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+  }
+}
+.icon i {
+  position: absolute;
+  top: 650px;
+  left: 600px;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .icon i {
+    position: absolute;
+    top: 950px;
+    left: 150px;
+    color: white;
+    font-size: 30px;
+  }
+}
+.whatsapp i {
+  position: fixed;
+  top: 450px;
+  right: 0;
+  font-size: 60px;
+  color: rgb(18, 220, 18);
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */

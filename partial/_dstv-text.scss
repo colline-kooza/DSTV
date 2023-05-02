@@ -1,0 +1,36 @@
+.dstv-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: aliceblue;
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    a{
+        color:  #a8abaf;
+        text-decoration: none;
+    }
+}
+}
+@media(max-width:480px){
+    .dstv-text{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        color: aliceblue;
+    .div{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        a{
+            color:  #a8abaf;
+            text-decoration: none;
+        }
+    }
+    }  
+}

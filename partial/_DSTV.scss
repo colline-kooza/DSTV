@@ -1,0 +1,78 @@
+.dstv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 3rem;
+    gap: 2rem;
+    background-color: #151e2a;
+    p{
+        color: #b5b7bb;
+    }
+    .dstv-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      .dstv-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            border-radius: 10px;
+        }
+     
+        .dstv-sub1{
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+       
+      }
+    }
+}
+@media(max-width:480px){
+    .dstv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        padding: 1rem;
+        gap: 2rem;
+        margin-bottom: 40px;
+        background-color: #151e2a;
+        p{
+            color: #b5b7bb;
+        }
+        .dstv-main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+          .dstv-sub{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                border-radius: 10px;
+            }
+         
+            .dstv-sub1{
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+           
+          }
+        }
+    }   
+}

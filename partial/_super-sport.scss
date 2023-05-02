@@ -1,0 +1,124 @@
+
+.main-super-sport{
+    display: flex;
+    flex-direction: column;
+    padding:10px 5rem ;
+    gap: 3rem;
+    background-color: aliceblue;
+    .h1{
+        color: black;
+        font-size: 30px;
+        
+    }
+    .super-sport{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        height: 60vh;
+        
+        .super-sport-vedio{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background: url(https://www.dstv.com/media/1rwkky5h/supersport-video-0104.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        width: 50%;
+        
+        i{
+            color: gray;
+            font-size: 100px;
+            &:hover{
+                color: red;
+            }
+        }
+        }
+        .super-sport-text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 20px;
+            width: 50%;
+            img{
+                width: 120px;
+                height: 120px;
+            }
+            button{
+                font-size: 18px;
+                border-radius: 30px;
+                background-color: none;
+                padding: 10px 20px;
+                width: 40%;
+            }
+        }
+        
+        }
+}
+
+@media(max-width:480px){
+    .main-super-sport{
+        display: flex;
+        flex-direction: column;
+        padding:3rem 1rem;
+        gap: 20px;
+        background-color: aliceblue;
+        .h1{
+            color: black;
+            font-size: 30px;
+            
+        }
+        .super-sport{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2rem;
+            width: 100%;
+            height: 100vh;
+            
+            .super-sport-vedio{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            background: url(https://www.dstv.com/media/1rwkky5h/supersport-video-0104.jpg);
+            background-size: cover;
+            border-radius: 10px;
+            width: 100%;
+            height: 40vh;
+            
+            i{
+                color: gray;
+                font-size: 100px;
+                &:hover{
+                    color: red;
+                }
+            }
+            }
+            .super-sport-text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                font-size: 20px;
+                width: 100%;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                button{
+                    font-size: 20px;
+                    border-radius: 30px;
+                    background-color: none;
+                    padding: 10px 10px;
+                    width: 80%;
+                    &:hover{
+                        background-color: aqua;
+                    }
+                }
+            }
+            
+            }
+    }   
+}
+
